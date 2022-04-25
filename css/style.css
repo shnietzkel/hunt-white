@@ -1,0 +1,386 @@
+@import url(../fonts/stylesheet.css);
+*{box-sizing: border-box;
+    font-family: 'Akrobat', sans-serif;
+}
+
+.body{
+
+}
+
+.header__container {
+    max-width: 320px;
+    padding: 20px 20px 0 20px;
+    float: left;
+    position: fixed;
+}
+
+.header__logo {
+    display: flex;
+    justify-content: center;
+}
+
+.header__logotype {
+    width: 121px;
+    height: 60px;  
+}
+
+.header__line {
+    margin-top: 20px;
+    border: 1px solid rgba(19, 18, 18, 0.1);
+}
+
+.header__border {
+    border: 0px solid rgba(19, 18, 18, 0.1);
+}
+
+.header__menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.header__kind {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 8px;
+}
+
+.header__kindnumber {
+    color: #13121266;
+}
+
+
+
+
+.header__list {
+    display: inline;
+    list-style-type: none;  
+    padding: 0;
+}
+
+.header__item {
+    margin-top: 12px;
+}
+
+.header__contact {
+    padding-top: 8px;
+}
+
+.header__language {
+    padding-top: 4px;
+}
+
+.header__location {
+    
+}
+
+/* доделать */
+.header__langru {
+    cursor: pointer;
+    border: 2px solid rgba(19, 18, 18, 0.1);
+    border-radius: 50%;
+    padding: 3px;
+    transition: 0.15s border;
+    margin-top: 17px;
+    margin-right: 8px;
+}
+
+/* доделать */
+.header__langge {
+    cursor: pointer;
+    border: 2px solid rgba(19, 18, 18, 0.1);
+    border-radius: 50%;
+    padding: 3px;
+    transition: 0.15s border;
+    margin-top: 17px;
+    margin-right: 10px;
+}
+
+.header__location_currently {
+    line-height: 16.8px;
+    margin-top: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-family: 'TT Interfaces Med', sans-serif;
+}
+
+.header__state {
+    font-family: 'TT Interfaces Med', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 12px;
+    color: rgba(19, 18, 18, 0.4);
+    line-height: 140%;
+}
+
+.header__place {
+    font-family: 'TT Interfaces Med', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 12px;
+    color: rgba(19, 18, 18, 0.4);
+    line-height: 140%;
+}
+
+.header__howto {
+    margin-bottom: 0px;
+}
+.header__howto_click {
+    font-family: 'TT Interfaces Med', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 12px;
+    color: #249D6A;
+    line-height: 140%;
+    text-decoration: underline;
+}
+
+.header__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 280px;
+    height: 60px;
+    border: 0px;
+    margin-top: 30px;
+    background-color: #249D6A;
+    font-family: 'Akrobat';
+    font-style: normal;
+    font-size: 700;
+    color: #ffffff;
+}   
+
+.header__button_text {
+    color: #FFFFFF;
+}
+
+
+.main-wrapper{
+    width: 100%;
+    padding-left: 320px;
+    max-height: 10000px;
+    
+}
+
+/* шрифт */
+.start__page {
+    background-color:#249D6A;
+    display: flex;
+    flex-direction: row;
+    color: #FFFFFF;
+}
+
+.start__img {
+    position: relative; 
+    right: 0; 
+    top: 0; 
+    width: 50%;
+}
+
+.start__photo {
+    position: relative; 
+    display: flex;
+    height: auto;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.start__season {
+    padding: 20px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.start__numbers {
+    display: flex;
+    flex-direction: row;
+}
+
+.start__numberone {
+    border: 2px solid #FFFFFF;
+    font-family: 'Akrobat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+
+}
+
+.start__numbertwo {
+    border: 2px solid #FFFFFF;
+    font-family: 'Akrobat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+}
+
+.start__naming {
+    width: 205px;
+    height: 20px;
+    left: 820px;
+    top: 100px;
+    font-family: 'Akrobat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 100%;
+    
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.start__text {
+    font-weight: 800;
+    font-size: 60px;
+    display: block;
+}
+
+.start__seasontime {
+    width: 167px;
+    height: 37px;
+    left: 820px;
+    top: 463px;
+    font-family: 'TT Interfaces';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 140%;
+    display: flex;
+    flex-direction: column;
+}
+
+.start__seasonstart {
+    font-family: 'TT Interfaces';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.start__seasondate {
+    font-family: 'TT Interfaces';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 140%;
+}
+
+.start__consultbutton {
+    border: 1px solid #ffffff;
+    width: 100%;
+    height: 60px;
+    left: 820px;
+    top: 520px;
+    background: #FFFFFF;
+
+}
+
+.start__consultbutton:hover {
+    background:#249D6A;
+    color: #FFFFFF; 
+}
+.start__consult {
+
+}
+
+.section__photos {
+    display: flex;
+    background-color: black;
+
+}
+
+.photos__row {
+    min-width: 25%;
+    object-fit: cover;
+}
+
+.photos__row img{
+    width: 100%;
+    opacity: 60%;
+    display: block;
+}
+
+.section__reviews {
+    padding: 20px;
+    background-color: #249D6A;
+    color: #ffffff;
+}
+
+.review__main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.review__ourclients {
+    margin:0px;
+}
+
+.review__allreviews {
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+.footer__howto {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer__howtogo {
+    padding: 20px;
+    width: 50%;
+}
+
+.footer__geo {
+    color:#249D6A;
+    font-family: 'Akrobat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 90%;
+}
+
+.footer__city {
+    font-family: 'TT Interfaces';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 140%;}
+
+.footer__road {
+    font-family: 'TT Interfaces';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    display: inline-block;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.footer__yandexmap {
+    font-family: 'TT Interfaces';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 140%;
+    color: rgba(19, 18, 18, 0.4);
+}
+
+.footer__mapblock {
+    width: 50%;
+}
+
+.footer__map {
+    width: 100%
+}
